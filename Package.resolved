@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Motion",
+        "repositoryURL": "https://github.com/CosmicMind/Motion.git",
+        "state": {
+          "branch": null,
+          "revision": "808ac0cf1b67c5e4163ee867dd6c056836fcbc58",
+          "version": "3.1.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

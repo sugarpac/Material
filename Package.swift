@@ -15,7 +15,11 @@ let package = Package(
             name: "Material",
             dependencies: ["Motion"],
             path: "Sources",
-            exclude: ["Frameworks"]
+            exclude: ["Frameworks"],
+            resources: [
+                .process("Font"),
+                .process("Assets.xcassets")
+            ]
         )
     ]
 )

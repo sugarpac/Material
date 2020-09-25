@@ -100,7 +100,7 @@ private class FontLoader {
     if nil == loadedFont && nil == UIFont(name: name, size: 1) {
       FontLoader.loadedFonts[name] = name
       
-      let bundle = Bundle(for: FontLoader.self)
+      let bundle = Bundle.module
       let identifier = bundle.bundleIdentifier
       let fontURL = true == identifier?.hasPrefix("org.cocoapods") ? bundle.url(forResource: name, withExtension: "ttf", subdirectory: "com.cosmicmind.material.fonts.bundle") : bundle.url(forResource: name, withExtension: "ttf")
       
